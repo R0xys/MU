@@ -9,10 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'pink-paws' : "url('../../public/images/pink-paws.svg')",
       },
+      fontFamily: {
+        'lilita': ['var(--var-lilita)'],
+      },
+      keyframes: {
+        'slide': {
+          '0%': { transform: 'translateY(0px)' },
+          '100%': { transform: 'translateY(-300px)' },
+        }
+      },
+      animation: {
+        'slide': '0.5s slide 2s ease-in-out both',
+      }
     },
   },
   plugins: [],
