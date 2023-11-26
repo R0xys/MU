@@ -16,8 +16,8 @@ const config: Config = {
       },
       keyframes: {
         'slide': {
-          '0%': { transform: 'translateY(0px)' },
-          '100%': { transform: 'translateY(-300px)' },
+          '0%': { marginTop: '0px' },
+          '100%': { marginTop: '20%' },
         }
       },
       animation: {

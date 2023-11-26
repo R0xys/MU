@@ -8,7 +8,7 @@ export default function Home() {
     setBgPosition(`${(window.innerWidth - evt.pageX) * 0.03}px ${(window.innerWidth - evt.pageY) * 0.03}px`);
   }
   return (
-    <main onMouseMove={nandleMousMove} style={{'backgroundPosition' : bgPosition}} className="bg-[#FFE6E6] flex min-h-screen flex-col items-center justify-center p-24 bg-pink-paws">
+    <main onMouseMove={nandleMousMove} style={{'backgroundPosition' : bgPosition}} className="bg-[#FFE6E6] flex min-h-screen flex-col items-end p-24 bg-pink-paws">
       <p className="animate-slide font-lilita font text-8xl">MU</p>
     </main>
   )
