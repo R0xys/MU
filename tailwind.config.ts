@@ -18,10 +18,15 @@ const config: Config = {
         'slide': {
           '0%': { marginTop: '0px' },
           '100%': { marginTop: '20%' },
+        }, 
+        'move': {
+          '0%': { transform: 'translate(0px, 0%) rotate(12deg)',},
+          '100%': { transform: 'translate(100px, -75%) rotate(12deg)' },
         }
       },
       animation: {
         'slide': '0.5s slide 2s ease-in-out both',
+        'move': 'move 30s ease-in-out infinite',
       }
     },
   },
