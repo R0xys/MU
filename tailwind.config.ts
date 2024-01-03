@@ -9,10 +9,15 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'pink-paws' : "url('../../public/images/pink-paws.svg')",
+        'pink-paws': "url('../../public/images/pink-paws.svg')",
+        'fly-heart': "url('../../public/images/heart-fly.png')",
+        'hearts': "url('../../public/images/hearts.png')",
+        'security': "url('../../public/images/padlock.png')",
+        'family': "url('../../public/images/family.png')",
       },
       fontFamily: {
         'lilita': ['var(--var-lilita)'],
+        'inter': ['var(--var-inter)']
       },
       keyframes: {
         'slide': {
